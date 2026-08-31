@@ -7,8 +7,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
-  "dependencies": {
-    "@vubular/elements": "^0.0.23"
+  "peerDependencies": {
+    "@vubular/elements": ">=0.0.23",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vubular/elements": ">=0.0.23",
+    "vue": "^2.7.14"
   },
   "repository": {
     "type": "git",
